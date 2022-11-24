@@ -43,7 +43,7 @@ const Cliente = (props) => {
 
   if (cliente) {
     return (
-      <div className="container m-1 p-1">
+      <div>
         <div>
           Nombre: {cliente.nombre} {cliente.apellidoPaterno}{" "}
           {cliente.apellidoMaterno}
